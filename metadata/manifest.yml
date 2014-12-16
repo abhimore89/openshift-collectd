@@ -18,6 +18,9 @@ Website: http://collectd.org
 Provides:
   - collectd-5.4.1
   - collectd
+Scaling:
+ Min: 1
+ Max: 1
 Cart-Data:
   - Key: OPENSHIFT_COLLECTD_PUBLIC_SERVER_PORT 
 Group-Overrides:
