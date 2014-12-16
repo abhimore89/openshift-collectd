@@ -5,7 +5,7 @@ Architecture: x86_64
 Display-Name: collectd 5.4.1
 Description: collectd is a daemon which collects system performance statistics
 Version: "5.4.1"
-Source-Url: git@github.com:gcoonrod/openshift-collectd.git
+Source-Url: git@github.com:megsa01/openshift-collectd.git
 Cartridge-Version: "0.0.2"
 Cartridge-Vendor: gcoonrod
 License: GPL
@@ -18,9 +18,6 @@ Website: http://collectd.org
 Provides:
   - collectd-5.4.1
   - collectd
-Scaling:
-  Min: 1
-  Max: -1
 Cart-Data:
   - Key: OPENSHIFT_COLLECTD_PUBLIC_SERVER_PORT 
 Group-Overrides:
